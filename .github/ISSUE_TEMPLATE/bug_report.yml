@@ -17,6 +17,8 @@ body:
           required: true
         - label: "I am a silly goose and didn't read these boxes."
           required: false
+        - label: "I am a silly goose and DID read these boxes."
+          required: false
   - type: textarea
     id: issue
     attributes:
