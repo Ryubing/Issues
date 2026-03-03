@@ -3,6 +3,20 @@ description: File a bug report
 title: "[Bug]"
 labels: bug
 body:
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: Please confirm the following
+      options:
+        - label: "I am confident that my issue has not been reported already in open OR closed issues."
+          required: true
+        - label: "I am able to reliably reproduce the issue on the latest stable or canary version."
+          required: true
+        - label: "I am not using an unofficial build (Flatpak, Emudeck, etc.)."
+          required: true
+        - label: "I am a silly goose and didn\'t read these boxes."
+          required: false
   - type: textarea
     id: issue
     attributes:
