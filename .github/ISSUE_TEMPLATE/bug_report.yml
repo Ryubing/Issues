@@ -15,7 +15,7 @@ body:
           required: true
         - label: "I am not using an unofficial build (Flatpak, Emudeck, etc.)."
           required: true
-        - label: "I am a silly goose and didn\'t read these boxes."
+        - label: "I am a silly goose and didn't read these boxes."
           required: false
   - type: textarea
     id: issue
